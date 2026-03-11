@@ -30,11 +30,6 @@ export default function Signin() {
             />
           </div>
 
-          {/* ローディング中のUI（コメントインで確認）
-          <button className='auth-submit-btn' type='button' disabled>
-            ログイン中...
-          </button>
-          */}
           <button className='auth-submit-btn' type='button'>
             ログイン
           </button>
