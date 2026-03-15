@@ -6,7 +6,7 @@
   align-items: center;
   padding: 0 16px;
   gap: 16px;
-  z-index: 1000;
+  z-index: 10000;
   position: relative;
   flex-shrink: 0;
 }
@@ -59,7 +59,9 @@
   padding: 0 12px;
   height: 44px;
   gap: 8px;
-  transition: background 0.2s, box-shadow 0.2s;
+  transition:
+    background 0.2s,
+    box-shadow 0.2s;
 }
 
 .address-search-input-wrapper:focus-within {
@@ -206,7 +208,9 @@
   font-weight: 500;
   cursor: pointer;
   white-space: nowrap;
-  transition: background 0.15s, box-shadow 0.15s;
+  transition:
+    background 0.15s,
+    box-shadow 0.15s;
 }
 
 .header-logout:hover {
