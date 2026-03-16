@@ -22,11 +22,6 @@ export default function SpotCard() {
           </button>
         </div>
         <p className='spot-card-address'>東京都港区芝公園4丁目2-8</p>
-        <p className='spot-card-description'>東京のシンボルタワー。高さ333mの電波塔。</p>
-        {/* 住所・説明なしのUI（コメントアウトで確認）
-        住所を非表示にする場合は上の <p className='spot-card-address'>...</p> をコメントアウト
-        説明を非表示にする場合は上の <p className='spot-card-description'>...</p> をコメントアウト
-        */}
       </div>
     </div>
   );
