@@ -10,8 +10,6 @@ export default function SpotPopup() {
         </span>
       </div>
       <p className='spot-popup-address'>東京都港区芝公園4丁目2-8</p>
-      <p className='spot-popup-description'>東京のシンボルタワー。高さ333mの電波塔。</p>
-      {/* 住所・説明なしのUI: 上の <p> をコメントアウトして確認 */}
       <div className='spot-popup-actions'>
         {/* お気に入り済みの場合: className='spot-popup-favorite active'、fill='currentColor'、テキストを'お気に入り済み'に変更して確認 */}
         <button className='spot-popup-favorite'>
