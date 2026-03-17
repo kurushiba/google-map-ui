@@ -3,9 +3,6 @@ import './index.css';
 export default function RoutePanel() {
   return (
     <div className='route-panel'>
-      {/* ローディング中のUI（コメントインで確認）
-      <span className='route-panel-loading'>ルートを検索中...</span>
-      */}
       <div className='route-panel-info'>
         <span className='route-panel-distance'>2.3 km</span>
         <span className='route-panel-separator'>·</span>
